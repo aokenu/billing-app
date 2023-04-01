@@ -41,5 +41,5 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width
+    width: 8px;
 }
