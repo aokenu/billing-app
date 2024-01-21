@@ -19,5 +19,5 @@ body {
 }
 
 .animate-fade-in {
-    animation: fadeIn
+    animation: fadeIn 0.5s 
 }
