@@ -104,6 +104,8 @@
                 try {
                     const response = await axios.get(`${API_BASE}/history`);
                     setHistory(response.data.reverse());
+                } catch (err) {
+                    
                 }
             };
 
