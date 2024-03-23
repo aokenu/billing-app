@@ -123,7 +123,7 @@
 
                 setUploading(true);
                 try {
-                    
+                    await axios.post(`${API_BASE}/upload`, formData);
                 }
             }
 
