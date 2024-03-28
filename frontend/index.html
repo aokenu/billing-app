@@ -129,6 +129,8 @@
                     setDateEnded(''); // Reset date after successful upload
                 } catch (err) {
                     alert(err.response?.data?.detail || "Upload failed");
+                    } finally {
+                        
                 }
             }
 
