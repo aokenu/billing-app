@@ -137,6 +137,9 @@
             const onDrag = (e) => {
                 e.preventDefault();
                 e.stopPropagation();
+                if (e.type === "dragenter" || e.type === "dragover") {
+                    
+                }
             };
 
     </script>    
